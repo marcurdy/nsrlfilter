@@ -9,7 +9,7 @@ import sys, getopt, string, socket
 # Black #1: VirusShare.com?
 # Black #2: Other_blacklist?
 
-NSRLHOST= "infra.hpdis.net"
+NSRLHOST= "my_nsrl_server"
 # Enable additional ports if additional whitelists exist
 #WHITE   = [9120, 9121]
 WHITE   = [9120]
