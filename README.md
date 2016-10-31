@@ -6,18 +6,18 @@ If you have additional lists to use as whitelists and/or blacklists running on o
   
 On your nsrl server, run each list on a different port with nsrlsrv.  
   
-# Edit the WHITE and BLACK arrays below to map nsrlsvr ports to the lists it houses  
-# White #1: NSRL = /usr/local/share/nsrlsvr/hashes.txt  
-# White #2: Redline = /home/sansforensics/Downloads/nsrl/m-whitelist-1.0.txt  
-# Black #1: VirusShare.com list  
-# Black #2: Other_blacklist?  
+\#Edit the WHITE and BLACK arrays below to map nsrlsvr ports to the lists it houses  
+\# White #1: NSRL = /usr/local/share/nsrlsvr/hashes.txt  
+\# White #2: Redline = /home/sansforensics/Downloads/nsrl/m-whitelist-1.0.txt  
+\# Black #1: VirusShare.com list  
+\# Black #2: Other_blacklist?  
   
 Example:  
   
 NSRLHOST= "your nsrlsrv"  
-# Enable additional ports if additional whitelists exist  
+\# Enable additional ports if additional whitelists exist  
 WHITE   = [9120, 9121]  
-# Enable blacklist ports if any exist  
+\# Enable blacklist ports if any exist  
 BLACK   = [9122, 9123]  
 
   
